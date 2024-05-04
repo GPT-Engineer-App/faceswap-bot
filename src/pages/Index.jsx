@@ -22,7 +22,7 @@ const Index = () => {
           <Text mt={4}>Upload Image 2:</Text>
           <Input type="file" p={1} />
         </Box>
-        <Button colorScheme="blue" mt={4}>
+        <Button colorScheme="blue" mt={4} onClick={() => alert("Processing face swap...")}>
           Process Face Swap
         </Button>
         <Text mt={4}>Result:</Text>
